@@ -1,6 +1,8 @@
 package pub
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func Barks() string {
 	return "Barks"
@@ -11,5 +13,9 @@ func Bark() string {
 }
 
 func From11() {
-	fmt.Println("I Am from verion 1.1.0")
+	fmt.Println("I Am from version 1.1.0")
+}
+
+func From12(s string) interface{} {
+	return "This is the version 1.2.0" + s
 }
